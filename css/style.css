@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------HEADER--------*/
+
+
+/* ---- intento de correccion eliminar espacio entre header y nav ---- */
+/* -------------------------------FALLIDO------acepto sugerencias----- */
+nav {
+    border-top: 2px solid #1e1e1e;
+}
+header {
+    border-bottom: 2px solid #1e1e1e;
+}
+
+/* -------------------------------------------------------------------- */
+
+
+header {
+    background: rgb(30,30,30);
+background: linear-gradient(0deg, rgba(30,30,30,1) 0%, rgba(47,47,47,1) 100%);
+}
+
+.header-top {
+    display: flex;
+    justify-content: center;
+}
+
+.cart {
+    font-size: 40px;
+    color: #bf930D;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    position: absolute;
+    top: 0; right: 0;
+    border-radius: 25%;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    padding-top: 6px;
+}
+
+.header-busqueda {
+    display:flex;
+    justify-content: center;
+    
+}
+
+.cart:hover{
+    background-color: #bf930D;
+    color: #1e1e1e;
+    
+}
+
+/* Barra de busqueda */
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 4px solid grey;
+    float: left;
+    width: 80%;
+    background: whitesmoke;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+form.example button {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background: #bf930D;
+    color: #1e1e1e;
+    font-size: 17px;
+    border: 4px solid grey;
+    border-left: none; 
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+form.example button:hover {
+    background: #1e1e1e;
+    color: #bf930D;
+}
+
+/* Clear floats */
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Nav Sticky */
+
+nav { 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #1e1e1e;
+}
+
+.header-sticky {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+}
+
+nav ul li a { 
+    text-decoration: none;
+    font-family: 'Flamenco', cursive;
+    color: #bf930D;
+    border-radius: 10px;
+    padding: 1vh;
+}
+
+nav ul li a:hover {
+    color: #000000;
+    background-color: #bf930D;
+}
+
+/* -----HERO INDEX----- */
+
+/* .hero {
+    width: 100%;
+    height: 500px ;
+    background-image: url(../img/banner-Hero.jpg);
+    background-position: center;
+} */
+
+
+/* ---------CARRUSEL------------- */
+
+.carrusel {
+    z-index: 0;
+}
+
+/* -------MAIN-------- */
+
+main section h2 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    color:#1e1e1e;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 3vh;
+}
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 8vh;
+    flex-wrap: wrap;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.card-product {
+    font-family: 'Poppins';
+    text-align: center;
+    width: 300px;
+    height: 390px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 4.5vh;
+    transition-duration: 1s;
+}
+
+.card-product:hover {
+    transform: scale(1.1);
+}
+
+.card-product h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card-product h4 {
+    font-size: 20px;
+}
+
+.card-product img {
+    width: 265px;
+    height: 265px;
+}
+
+.card-letter-color {
+    text-decoration: none;
+    color: #000000;
+}
+
+.card-letter-color:hover {
+    color: #000000;
+}
+
+.cart-card {
+    width: 100%;
+    font-size: 30px;
+    display: block;
+    background-color: #1e1e1e;
+    color: #bf930D;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+.cart-card:hover {
+    background-color: #bf930D;
+    color: #000000;
+    transition: background-color 1s ease-out;
+}
+
+/* --------CONTACTO-------- */
+
+
+.main-contacto {
+    background-color: #1e1e1e;
+    
+}
+
+.titulo-contacto {
+    font-family: 'Flamenco', cursive;
+    font-size: 30px;
+    color: #bf930D;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5.5em;
+}
+
+.container-formulario {
+    box-shadow: 0 0 50px 0 #535353;
+    font-family: 'Flamenco', cursive;
+    /* background-color: #1e1e1e; */
+    background: rgb(30,30,30);
+    background: linear-gradient(135deg, rgba(30,30,30,1) 0%, rgba(47,47,47,1) 50%, rgba(30,30,30,1) 100%);
+    color: #bf930D;
+    font-size: 35px;
+    padding: 1.5em;
+}
+
+.container-formulario div input {
+    font-size: 25px;
+}
+
+.container-formulario form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-formulario form div {
+    margin: 0;
+    padding: 0.2em;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 6vh;
+}
+
+.container-formulario form div label,
+.container-formulario form div input,
+.container-formulario form div select,
+.container-formulario form div button,
+.container-formulario form div textarea {
+    width: 90%;
+    padding: .1em;
+    border: none;
+    background: none;
+    outline: 0;
+    margin-bottom: 1em;
+    color: #bf930D;
+}
+
+.container-formulario form div label {
+    margin-bottom: 1vh;
+}
+
+.boton {
+    width: 50%;
+    align-self: center;
+}
+
+.container-formulario form div select,
+.container-formulario form div textarea,
+.container-formulario form div input {
+    border-bottom: 1px solid #bf930D;
+}
+
+.container-formulario form div button {
+    background: #bf930D;
+    color: #000000;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    font-family: 'Flamenco',;
+    font-size: 35px;
+}
+
+.container-formulario form div button:hover,
+.container-formulario form div button:focus {
+    background-color: #535353;
+    color: #bf930D;
+    transition: background-color 1s ease-out;
+}
+
+.encuentranos {
+    font-family: 'Flamenco', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: #bf930D;
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%;
+    
+}
+
+/* ------------FOOTER------------- */
+
+.grid-container-footer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+    "facebook instagram whatsapp"
+    "copyright iconotop img-ilust";
+    /* background-color: #1e1e1e; */
+    background: rgb(47,47,47);
+background: linear-gradient(0deg, rgba(47,47,47,1) 0%, rgba(30,30,30,1) 100%);
+}
+
+.facebook {
+    grid-area: facebook;
+    font-size: 50px;
+    color: #bf930D;
+    text-align: center;
+    align-self: center;
+}
+
+.facebook i {
+    transition-duration: 1s;
+}
+
+.facebook:hover {
+    color: #bf930D;
+}
+
+.facebook i:hover {
+    background-color: #bf930D;
+    color: #000000;
+    padding: 0.5vh 3vw 0.5vh 3vw;
+    border-radius: 10px;
+}
+
+.whatsapp {
+    grid-area: whatsapp;
+    font-size: 50px;
+    color: #bf930D;
+    text-align: center;
+    align-self: center;
+}
+
+.whatsapp i {
+    transition-duration: 1s;
+}
+
+.whatsapp:hover {
+    color: #bf930D;
+}
+.whatsapp i:hover {
+    background-color: #bf930D;
+    color: #000000;
+    padding: 0.5vh 3vw 0.5vh 3vw;
+    border-radius: 10px;
+}
+
+.instagram {
+    grid-area: instagram;
+    font-size: 50px;
+    color: #bf930D;
+    text-align: center;
+    align-self: center;
+}
+
+.instagram i {
+    transition-duration: 1s;
+}
+
+.instagram:hover {
+    color: #bf930D;
+}
+
+.instagram i:hover {
+    background-color: #bf930D;
+    color: #000000;
+    padding: 0.5vh 3vw 0.5vh 3vw;
+    border-radius: 10px;
+}
+
+.copyright {
+    grid-area: copyright;
+    font-size: 20px;
+    color: #bf930D;
+    text-align: center;
+    align-self: center;
+}
+
+.img-ilust {
+    grid-area: img-ilust;
+    font-size: 20px;
+    color: #bf930D;
+    text-align: center;
+    align-self: center;
+}
+
+.icono-index {
+    display: flex;
+    justify-content: center;
+}
+
+.icono-index img {
+    width: 80%;
+    height: 100%;
+}
+
+
+
+/* ---------------------------------------MEDIA QUERIES------------------------------------ */
+
+@media screen and (min-width:1600px) {
+    .wrapper {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .container-formulario form div {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (max-width:1090px) {
+    nav ul li {
+        font-size: 25px;
+        margin: 10px;
+        padding: 5px;
+    }
+    .container-formulario form div {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+}
+
+@media screen and (max-width:965px) {
+    nav ul li {
+        font-size: 22px;
+        margin: 9px;
+        padding: 4px;
+    }
+    .container-formulario form div label,
+    .container-formulario form div input,
+    .container-formulario form div select,
+    .container-formulario form div button,
+    .container-formulario form div textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    nav ul li {
+        font-size: 22px;
+        margin: 4px;
+        padding: 2px;
+    }
+    .wrapper {
+        padding: 7vw;
+    }
+    .copyright {
+        font-size: 17px;
+    }
+    .img-ilust {
+        font-size: 17px;
+    }
+
+    .boton {
+        width: 70%;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .wrapper {
+        padding: 5vw;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .instagram {
+        font-size: 40px;
+    }
+    .facebook {
+        font-size: 40px;
+    }
+    .whatsapp {
+        font-size: 40px;
+    }
+    .copyright {
+        font-size: 15px;
+    }
+    .img-ilust {
+        font-size: 15px;
+    }
+
+    .boton {
+        width: 80%;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    /* El logo index mide 300x116 */
+    .header-top a img {
+        width: 250px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .cart {
+        font-size: 35px;
+    }
+    nav ul li {
+        font-size: 20px;
+        margin: 4px;
+        padding: 2px;
+    }
+
+    .boton {
+        width: 90%;
+        align-self: center;
+    }
+}
