@@ -1,0 +1,525 @@
+
+// ----------MAIN INDEX------------
+
+main {
+    .carrusel {
+        z-index: 0;
+    }
+    .wrapper-quienes-somos {
+        padding: 3em;
+        .quienes-somos {
+            display: flex;
+            flex-direction: row;
+            background-color: #bdbdbd;
+            border: solid 2px #000000;
+            border-radius: 20px;
+            .quienes-somos-text {
+                h2 {
+                    font-family: 'poppins';
+                }
+                p {
+                    font-family: 'poppins';
+                    font-size: 20px;
+                    color: #2c2104;
+                    margin-right: 0.5vw;
+                    margin-left: 1vw;
+                }
+            }
+        }
+        img {
+            width: 900px;
+            height: 600px;
+            border-left: solid 2px #000000;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+    }
+    section {
+        h2{
+            font-family: 'Poppins';
+            font-weight: bold;
+            color:#1e1e1e;
+            text-align: center;
+            font-size: 30px;
+            padding-bottom: 3vh;
+        }
+    }
+}
+
+main {
+    .grid-container-destacados {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "cut1 cut2 cut3";
+        width: 100%;
+        justify-items:center;
+        padding-left: 22vw;
+        padding-right: 22vw;
+        padding-bottom: 3vh;
+        .top1{
+            background-image: url(../img/cut1top.jpg);
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            transition-duration: 1s;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            &:hover {
+                transform: scale(1.1);
+                color: white;
+            }
+            img {
+                width: 250px;
+                height: 250px;
+                align-self: center;
+                grid-area: cut1;
+            }
+            h3 {
+                font-size: 15px;
+                font-family: 'poppins';
+            }
+            h4 {
+                font-size: 20px;
+                font-family: 'poppins';
+            }
+        }
+        .top2{
+            background-image: url(../img/cut2top.jpg);
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            transition-duration: 1s;
+            &:hover {
+                transform: scale(1.1);
+                color: white;
+            }
+            img {
+                width: 250px;
+                height: 250px;
+                align-self: center;
+                grid-area: cut2;
+            }
+            h3 {
+                font-size: 15px;
+                font-family: 'poppins';
+            }
+            h4 {
+                font-size: 20px;
+                font-family: 'poppins';
+            }
+        }
+        .top3{
+            background-image: url(../img/cut3top.jpg);
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            transition-duration: 1s;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            &:hover {
+                transform: scale(1.1);
+                color: white;
+            }
+            img {
+                width: 250px;
+                height: 250px;
+                align-self: center;
+                grid-area: cut3;
+            }
+            h3 {
+                font-size: 15px;
+                font-family: 'poppins';
+            }
+            h4 {
+                font-size: 20px;
+                font-family: 'poppins';
+            }
+        }
+    }
+    .grid-container-oferta {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "cut1 cut2 cut3";
+        width: 100%;
+        justify-items:center;
+        padding-left: 22vw;
+        padding-right: 22vw;
+        padding-bottom: 3vh;
+        .bottom1{
+            background-image: url(../img/cut1bottom.jpg);
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            transition-duration: 1s;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            &:hover{
+                transform: scale(1.1);
+                color: white;
+            }
+            img {
+                width: 250px;
+                height: 250px;
+                align-self: center;
+                grid-area: cut1;
+            }
+            h3 {
+                font-size: 15px;
+                font-family: 'poppins';
+            }
+            h4 {
+                font-size: 20px;
+                font-family: 'poppins';
+            }
+        }
+        .bottom2{
+            background-image: url(../img/cut2bottom.jpg);
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            transition-duration: 1s;
+            &:hover {
+                transform: scale(1.1);
+                color: white;
+            }
+            img {
+                width: 250px;
+                height: 250px;
+                align-self: center;
+                grid-area: cut2;
+            }
+            h3 {
+                font-size: 15px;
+                font-family: 'poppins';
+            }
+            h4 {
+                font-size: 20px;
+                font-family: 'poppins';
+            }
+        }
+        .bottom3{
+            background-image: url(../img/cut3bottom.jpg);
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            transition-duration: 1s;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            &:hover {
+                transform: scale(1.1);
+                color: white;
+            }
+            img {
+                width: 250px;
+                height: 250px;
+                align-self: center;
+                grid-area: cut3;
+            }
+            h3 {
+                font-size: 15px;
+                font-family: 'poppins';
+            }
+            h4 {
+                font-size: 20px;
+                font-family: 'poppins';
+            }
+        }
+    }
+}
+
+
+// -- Main motherboards/procesadores/tarjetas graficas --
+
+main {
+    section {
+        .banner-store {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .productos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 8vh;
+        flex-wrap: wrap;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        .card-product {
+            font-family: 'Poppins';
+            text-align: center;
+            width: 300px;
+            height: 390px;
+            margin-left: 2vw;
+            margin-right: 2vw;
+            margin-bottom: 4.5vh;
+            transition-duration: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+            .card-letter-color {
+                text-decoration: none;
+                color: #000000;
+                &hover {
+                    color: #000000;
+                }
+                h3{
+                    font-size: 20px;
+                    margin-top: 10px;
+                }
+                h4 {
+                    font-size: 20px;
+                    color: rgb(149, 1, 1);
+                }
+                img {
+                    width: 265px;
+                    height: 265px;
+                }
+            }
+            .cart-card {
+                width: 100%;
+                font-size: 30px;
+                display: block;
+                background-color: #1e1e1e;
+                color: nth($colores,1);
+                border: 1px solid #000000;
+                border-radius: 10px;
+                transition-duration: 1s;
+                &:hover {
+                    background-color: nth($colores,1);
+                    color: #000000;
+                    transition: background-color 1s ease-out;
+                }
+            }
+        }
+    }
+}
+
+// ---------Main Contacto------------ --
+
+main {
+    .banner-contacto {
+        background-image:url(../img/banner-contacto2.jpg);
+        width: 100%;
+        height: 400px;
+        background-position: center;
+        color: nth($colores,3);
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        .faqs-banner {
+            text-decoration: none;
+            color: nth($colores,3);
+            font-size: 30px;
+            font-family: 'Poppins';
+            transition-duration: 1s;
+            align-self: center;
+            &:hover {
+                background-color: nth($colores,3);
+                color: #000000;
+                padding: 0.5vh 3vw 0.5vh 3vw;
+                border-radius: 10px;
+            }
+        }
+    }
+    .main-contacto {
+        background-color: #1e1e1e;
+        .titulo-contacto {
+            font-family: 'Poppins';
+            font-size: 30px;
+            color: nth($colores,1);
+            text-align: center;
+            padding-top: 20px;
+        }
+        .wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5.5em;
+            display: flex;
+            justify-content: center;
+            .container-formulario {
+                box-shadow: 0 0 50px 0 #535353;
+                font-family: 'Flamenco', cursive;
+                background: rgb(30,30,30);
+                background: linear-gradient(135deg, rgba(30,30,30,1) 0%, rgba(47,47,47,1) 50%, rgba(30,30,30,1) 100%);
+                color: nth($colores,1);
+                font-size: 22px;
+                padding: 1.5em;
+                width: 60vw;
+                border-radius: 20px;
+                form {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    div {
+                        margin: 0;
+                        padding: 0.2em;
+                        margin-left: 10vw;
+                        margin-right: 10vw;
+                        margin-bottom: 2vh;
+                        label {
+                            width: 90%;
+                            padding: .1em;
+                            border: none;
+                            background: none;
+                            outline: 0;
+                            margin-bottom: 0.5em;
+                            color: nth($colores,1);
+                            margin-bottom: 1vh;
+                        }
+                        input {
+                            width: 90%;
+                            padding: .1em;
+                            border: none;
+                            background: none;
+                            outline: 0;
+                            margin-bottom: 0.5em;
+                            color: nth($colores,1);
+                            font-size: 18px;
+                            border-bottom: 1px solid nth($colores,1);
+                        }
+                        select {
+                            width: 90%;
+                            padding: .1em;
+                            border: none;
+                            background: none;
+                            outline: 0;
+                            margin-bottom: 0.5em;
+                            color: nth($colores,1);
+                            border-bottom: 1px solid nth($colores,1);
+                        }
+                        textarea {
+                            width: 90%;
+                            padding: .1em;
+                            border: none;
+                            background: none;
+                            outline: 0;
+                            margin-bottom: 0.5em;
+                            color: nth($colores,1);
+                            border-bottom: 1px solid nth($colores,1);
+                        }
+                    }
+                    .boton {
+                        width: 35%;
+                        align-self: center;
+                        button {
+                            width: 90%;
+                            padding: .1em;
+                            border: none;
+                            outline: 0;
+                            margin-bottom: 0.5em;
+                            background: nth($colores,1);
+                            color: #000000;
+                            border: 0;
+                            text-transform: uppercase;
+                            padding: 1em;
+                            font-family: 'Flamenco',;
+                            font-size: 20px;
+                            border-radius: 20px;
+                            border-color: #000000;
+                            &:hover {
+                                background-color: #535353;
+                                color: nth($colores,1);
+                                transition: background-color 1s ease-out;
+                            }
+                            &:focus {
+                                background-color: #535353;
+                                color: nth($colores,1);
+                                transition: background-color 1s ease-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }    
+        .faqs-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5.5em;
+            .faqs {
+                box-shadow: 0 0 50px 0 #535353;
+                font-family: 'Poppins';
+                background: rgb(30,30,30);
+                background: linear-gradient(135deg, rgba(30,30,30,1) 0%, rgba(47,47,47,1) 50%, rgba(30,30,30,1) 100%);
+                color: nth($colores,1);
+                font-size: 22px;
+                padding: 1.5em;
+                width: 60vw;
+                border-radius: 20px;
+                p {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .faqs-title {
+                    font-size: 30px;
+                    color: nth($colores,1);
+                }
+                .faqs-pregunta {
+                    color: nth($colores,3);
+                    font-size: 24px;
+                }
+                .faqs-respuesta {
+                    color: nth($colores,1);
+                    font-size: 24px;
+                }
+            }
+        }
+        .encuentranos {
+            font-family: 'Flamenco', cursive;
+            font-weight: bold;
+            font-size: 40px;
+            color: nth($colores,1);
+            text-align: center;
+            .map {
+                iframe {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

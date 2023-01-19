@@ -1,0 +1,433 @@
+/* ---------------------------------------MEDIA QUERIES------------------------------------ */
+
+@media screen and (max-width:1750px) {
+    main .wrapper-quienes-somos .quienes-somos .quienes-somos-text p {
+        font-size: 18px;
+    }
+    main .grid-container-destacados {
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    main .grid-container-oferta {
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+}
+@media screen and (max-width:1550px) {
+    main .wrapper-quienes-somos img {
+        width: 800px;
+        height: 550px;
+    }
+    main .wrapper-quienes-somos .quienes-somos .quienes-somos-text p{
+        font-size: 17px;
+    }
+    main .grid-container-destacados {
+        padding-left: 18vw;
+        padding-right: 18vw;
+    }
+    main .grid-container-oferta {
+        padding-left: 18vw;
+        padding-right: 18vw;
+    }
+}
+
+@media screen and (max-width:1450px) {
+    main .wrapper-quienes-somos img {
+        width: 800px;
+        height: 550px;
+    }
+    main .wrapper-quienes-somos .quienes-somos .quienes-somos-text p{
+        font-size: 16px;
+    }
+    main .grid-container-destacados {
+        padding-left: 16vw;
+        padding-right: 16vw;
+    }
+    main .grid-container-oferta {
+        padding-left: 16vw;
+        padding-right: 16vw;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    main .main-contacto .faqs-wrapper .faqs .faqs-pregunta {
+        font-size: 22px;
+    }
+    main .main-contacto .faqs-wrapper .faqs .faqs-respuesta {
+        font-size: 22px;
+    }
+    main .wrapper-quienes-somos img {
+        width: 650px;
+        height: 550px;
+    }
+    main .grid-container-destacados {
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+    main .grid-container-oferta {
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    main .main-contacto .wrapper .container-formulario {
+        width: 90%;
+    }
+    main .main-contacto .faqs-wrapper .faqs {
+        width: 90%;
+    }
+    main .wrapper-quienes-somos .quienes-somos .quienes-somos-text p{
+        font-size: 15px;
+    }
+    main .grid-container-destacados {
+        padding-left: 9vw;
+        padding-right: 9vw;
+    }
+    main .grid-container-oferta {
+        padding-left: 9vw;
+        padding-right: 9vw;
+    }
+}
+@media screen and (max-width:1200px) {
+    main .wrapper-quienes-somos .quienes-somos {
+        display: flex;
+        flex-direction: column;
+    }
+    main .wrapper-quienes-somos img {
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: none;
+    }
+    main .wrapper-quienes-somos .quienes-somos .quienes-somos-text p {
+        font-size: 18px;
+    }
+    main .grid-container-destacados {
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+    main .grid-container-oferta {
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+}
+
+@media screen and (max-width:1090px) {
+    nav ul li {
+        font-size: 25px;
+        margin: 10px;
+        padding: 5px;
+    }
+    main .main-contacto .faqs-wrapper .faqs .faqs-pregunta {
+        font-size: 20px;
+    }
+    main .main-contacto .faqs-wrapper .faqs .faqs-respuesta {
+        font-size: 20px;
+    }
+    main .main-contacto .wrapper .container-formulario form div {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    main .grid-container-destacados {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    main .grid-container-oferta {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+}
+
+@media screen and (max-width:965px) {
+    nav ul li {
+        font-size: 22px;
+        margin: 9px;
+        padding: 4px;
+    }
+    main .grid-container-destacados .top1 {
+        width: 250px;
+        height: 350px;
+    }
+    main .grid-container-destacados .top1 img {
+        width: 200px;
+        height: 200px;
+    }
+    main .grid-container-destacados .top1 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-destacados .top1 h4 {
+        font-size: 20px;
+    }
+    main .grid-container-destacados .top2 {
+        width: 250px;
+        height: 350px;
+    }
+    main .grid-container-destacados .top2 img {
+        width: 200px;
+        height: 200px;
+    }
+    main .grid-container-destacados .top2 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-destacados .top2 h4 {
+        font-size: 20px;
+    }
+    main .grid-container-destacados .top3 {
+        width: 250px;
+        height: 350px;
+    }
+    main .grid-container-destacados .top3 img {
+        width: 200px;
+        height: 200px;
+    }
+    main .grid-container-destacados .top3 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-destacados .top3 h4 {
+        font-size: 20px;
+    }
+    main .grid-container-oferta .bottom1 {
+        width: 250px;
+        height: 350px;
+    }
+    main .grid-container-oferta .bottom1 img {
+        width: 200px;
+        height: 200px;
+    }
+    main .grid-container-oferta .bottom1 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-oferta .bottom1 h4 {
+        font-size: 20px;
+    }
+    main .grid-container-oferta .bottom2 {
+        width: 250px;
+        height: 350px;
+    }
+    main .grid-container-oferta .bottom2 img {
+        width: 200px;
+        height: 200px;
+    }
+    main .grid-container-oferta .bottom2 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-oferta .bottom2 h4 {
+        font-size: 20px;
+    }
+    main .grid-container-oferta .bottom3 {
+        width: 250px;
+        height: 350px;
+    }
+    main .grid-container-oferta .bottom3 img {
+        width: 200px;
+        height: 200px;
+    }
+    main .grid-container-oferta .bottom3 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-oferta .bottom3 h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    nav ul li {
+        font-size: 22px;
+        margin: 4px;
+        padding: 2px;
+    }
+    footer .grid-container-footer .copyright {
+        font-size: 17px;
+    }
+    footer .grid-container-footer .img-ilust {
+        font-size: 17px;
+    }
+    main .main-contacto .wrapper .container-formulario form .boton {
+        width: 45%;
+    }
+    main .grid-container-destacados {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "cut1"
+        "cut2"
+        "cut3";
+        row-gap: 1.5vh;
+    }
+    main .grid-container-oferta {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "cut1"
+        "cut2"
+        "cut3";
+        row-gap: 1.5vh;
+    }
+    main .grid-container-destacados .top1 {
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    main .grid-container-destacados .top1 img {
+        width: 250px;
+        height: 250px;
+    }
+    main .grid-container-destacados .top1 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-destacados .top1 h4 {
+        font-size: 20px;
+    }
+    main .grid-container-destacados .top2 {
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    main .grid-container-destacados .top2 img {
+        width: 250px;
+        height: 250px;
+    }
+    main .grid-container-destacados .top2 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-destacados .top2 h4 {
+        font-size: 20px;
+    }
+    main .grid-container-destacados .top3 {
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    main .grid-container-destacados .top3 img {
+        width: 250px;
+        height: 250px;
+    }
+    main .grid-container-destacados .top3 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-destacados .top3 h4 {
+        font-size: 20px;
+    }
+    main .grid-container-oferta .bottom1 {
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    main .grid-container-oferta .bottom1 img {
+        width: 250px;
+        height: 250px;
+    }
+    main .grid-container-oferta .bottom1 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-oferta .bottom1 h4 {
+        font-size: 20px;
+    }
+    main .grid-container-oferta .bottom2 {
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    main .grid-container-oferta .bottom2 img {
+        width: 250px;
+        height: 250px;
+    }
+    main .grid-container-oferta .bottom2 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-oferta .bottom2 h4 {
+        font-size: 20px;
+    }
+    main .grid-container-oferta .bottom3 {
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    main .grid-container-oferta .bottom3 img {
+        width: 250px;
+        height: 250px;
+    }
+    main .grid-container-oferta .bottom3 h3 {
+        font-size: 15px;
+    }
+    main .grid-container-oferta .bottom3 h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    main .main-contacto .faqs-wrapper {
+        padding: 5vw;
+    }
+    main .main-contacto .wrapper {
+        padding: 5vw;
+    }
+    main .main-contacto .wrapper .container-formulario form .boton {
+        width: 45%;
+    }
+    main .main-contacto .faqs-wrapper .faqs .faqs-pregunta {
+        font-size: 18px;
+    }
+    main .main-contacto .faqs-wrapper .faqs .faqs-respuesta {
+        font-size: 18px;
+    }
+    main .wrapper-quienes-somos {
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width:650px) {
+    footer .grid-container-footer .instagram {
+        font-size: 40px;
+    }
+    footer .grid-container-footer .facebook {
+        font-size: 40px;
+    }
+    footer .grid-container-footer .whatsapp {
+        font-size: 40px;
+    }
+    footer .grid-container-footer .copyright {
+        font-size: 15px;
+    }
+    footer .grid-container-footer .img-ilust {
+        font-size: 15px;
+    }
+    ain .main-contacto .wrapper .container-formulario form .boton {
+        width: 50%;
+    }
+    main .main-contacto .wrapper .container-formulario form div {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    main .wrapper-quienes-somos {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header .header-top a img {
+        width: 250px;
+        height: 100px;
+    }
+    main .main-contacto .faqs-wrapper .faqs .faqs-pregunta {
+        font-size: 16px;
+    }
+    main .main-contacto .faqs-wrapper .faqs .faqs-respuesta {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    header .cart {
+        font-size: 35px;
+    }
+    nav ul li {
+        font-size: 20px;
+        margin: 4px;
+        padding: 2px;
+    }
+    main .main-contacto .wrapper .container-formulario form .boton {
+        width: 70%;
+    }
+}
