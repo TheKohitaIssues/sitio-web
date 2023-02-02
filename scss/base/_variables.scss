@@ -20,3 +20,34 @@ red;
     flex-direction: $direction;
     align-items: $align;
 }
+
+
+@mixin card-index () {
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition-duration: 1s;
+    &:hover {
+        transform: scale(1.1);
+        color: white;
+    }
+    img {
+        width: 250px;
+        height: 250px;
+        align-self: center;
+    }
+    h3 {
+        font-size: 15px;
+        font-family: 'poppins';
+    }
+    h4 {
+        font-size: 20px;
+        font-family: 'poppins';
+    }
+}

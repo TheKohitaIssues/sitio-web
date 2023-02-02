@@ -60,100 +60,22 @@ main {
         padding-bottom: 3vh;
         .top1{
             background-image: url(../img/cut1top.jpg);
-            background-size: cover;
-            width: 300px;
-            height: 400px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            transition-duration: 1s;
+            grid-area: cut1;
             border-top-left-radius: 20px;
             border-bottom-left-radius: 20px;
-            &:hover {
-                transform: scale(1.1);
-                color: white;
-            }
-            img {
-                width: 250px;
-                height: 250px;
-                align-self: center;
-                grid-area: cut1;
-            }
-            h3 {
-                font-size: 15px;
-                font-family: 'poppins';
-            }
-            h4 {
-                font-size: 20px;
-                font-family: 'poppins';
-            }
+            @include card-index;
         }
         .top2{
             background-image: url(../img/cut2top.jpg);
-            background-size: cover;
-            width: 300px;
-            height: 400px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            transition-duration: 1s;
-            &:hover {
-                transform: scale(1.1);
-                color: white;
-            }
-            img {
-                width: 250px;
-                height: 250px;
-                align-self: center;
-                grid-area: cut2;
-            }
-            h3 {
-                font-size: 15px;
-                font-family: 'poppins';
-            }
-            h4 {
-                font-size: 20px;
-                font-family: 'poppins';
-            }
+            grid-area: cut2;
+            @include card-index;
         }
         .top3{
             background-image: url(../img/cut3top.jpg);
-            background-size: cover;
-            width: 300px;
-            height: 400px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            transition-duration: 1s;
+            grid-area: cut3;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
-            &:hover {
-                transform: scale(1.1);
-                color: white;
-            }
-            img {
-                width: 250px;
-                height: 250px;
-                align-self: center;
-                grid-area: cut3;
-            }
-            h3 {
-                font-size: 15px;
-                font-family: 'poppins';
-            }
-            h4 {
-                font-size: 20px;
-                font-family: 'poppins';
-            }
+            @include card-index;
         }
     }
     .grid-container-oferta {
@@ -169,100 +91,22 @@ main {
         padding-bottom: 3vh;
         .bottom1{
             background-image: url(../img/cut1bottom.jpg);
-            background-size: cover;
-            width: 300px;
-            height: 400px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            transition-duration: 1s;
+            grid-area: cut1;
             border-top-left-radius: 20px;
             border-bottom-left-radius: 20px;
-            &:hover{
-                transform: scale(1.1);
-                color: white;
-            }
-            img {
-                width: 250px;
-                height: 250px;
-                align-self: center;
-                grid-area: cut1;
-            }
-            h3 {
-                font-size: 15px;
-                font-family: 'poppins';
-            }
-            h4 {
-                font-size: 20px;
-                font-family: 'poppins';
-            }
+            @include card-index;
         }
         .bottom2{
             background-image: url(../img/cut2bottom.jpg);
-            background-size: cover;
-            width: 300px;
-            height: 400px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            transition-duration: 1s;
-            &:hover {
-                transform: scale(1.1);
-                color: white;
-            }
-            img {
-                width: 250px;
-                height: 250px;
-                align-self: center;
-                grid-area: cut2;
-            }
-            h3 {
-                font-size: 15px;
-                font-family: 'poppins';
-            }
-            h4 {
-                font-size: 20px;
-                font-family: 'poppins';
-            }
+            grid-area: cut2;
+            @include card-index;
         }
         .bottom3{
             background-image: url(../img/cut3bottom.jpg);
-            background-size: cover;
-            width: 300px;
-            height: 400px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            transition-duration: 1s;
+            grid-area: cut3;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
-            &:hover {
-                transform: scale(1.1);
-                color: white;
-            }
-            img {
-                width: 250px;
-                height: 250px;
-                align-self: center;
-                grid-area: cut3;
-            }
-            h3 {
-                font-size: 15px;
-                font-family: 'poppins';
-            }
-            h4 {
-                font-size: 20px;
-                font-family: 'poppins';
-            }
+            @include card-index;
         }
     }
 }

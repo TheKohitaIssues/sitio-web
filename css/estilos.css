@@ -130,6 +130,9 @@ main .grid-container-destacados {
   padding-bottom: 3vh; }
   main .grid-container-destacados .top1 {
     background-image: url(../img/cut1top.jpg);
+    grid-area: cut1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -139,17 +142,14 @@ main .grid-container-destacados {
     text-align: center;
     text-decoration: none;
     color: white;
-    transition-duration: 1s;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px; }
+    transition-duration: 1s; }
     main .grid-container-destacados .top1:hover {
       transform: scale(1.1);
       color: white; }
     main .grid-container-destacados .top1 img {
       width: 250px;
       height: 250px;
-      align-self: center;
-      grid-area: cut1; }
+      align-self: center; }
     main .grid-container-destacados .top1 h3 {
       font-size: 15px;
       font-family: 'poppins'; }
@@ -158,6 +158,7 @@ main .grid-container-destacados {
       font-family: 'poppins'; }
   main .grid-container-destacados .top2 {
     background-image: url(../img/cut2top.jpg);
+    grid-area: cut2;
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -174,8 +175,7 @@ main .grid-container-destacados {
     main .grid-container-destacados .top2 img {
       width: 250px;
       height: 250px;
-      align-self: center;
-      grid-area: cut2; }
+      align-self: center; }
     main .grid-container-destacados .top2 h3 {
       font-size: 15px;
       font-family: 'poppins'; }
@@ -184,6 +184,9 @@ main .grid-container-destacados {
       font-family: 'poppins'; }
   main .grid-container-destacados .top3 {
     background-image: url(../img/cut3top.jpg);
+    grid-area: cut3;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -193,17 +196,14 @@ main .grid-container-destacados {
     text-align: center;
     text-decoration: none;
     color: white;
-    transition-duration: 1s;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px; }
+    transition-duration: 1s; }
     main .grid-container-destacados .top3:hover {
       transform: scale(1.1);
       color: white; }
     main .grid-container-destacados .top3 img {
       width: 250px;
       height: 250px;
-      align-self: center;
-      grid-area: cut3; }
+      align-self: center; }
     main .grid-container-destacados .top3 h3 {
       font-size: 15px;
       font-family: 'poppins'; }
@@ -223,6 +223,9 @@ main .grid-container-oferta {
   padding-bottom: 3vh; }
   main .grid-container-oferta .bottom1 {
     background-image: url(../img/cut1bottom.jpg);
+    grid-area: cut1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -232,17 +235,14 @@ main .grid-container-oferta {
     text-align: center;
     text-decoration: none;
     color: white;
-    transition-duration: 1s;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px; }
+    transition-duration: 1s; }
     main .grid-container-oferta .bottom1:hover {
       transform: scale(1.1);
       color: white; }
     main .grid-container-oferta .bottom1 img {
       width: 250px;
       height: 250px;
-      align-self: center;
-      grid-area: cut1; }
+      align-self: center; }
     main .grid-container-oferta .bottom1 h3 {
       font-size: 15px;
       font-family: 'poppins'; }
@@ -251,6 +251,7 @@ main .grid-container-oferta {
       font-family: 'poppins'; }
   main .grid-container-oferta .bottom2 {
     background-image: url(../img/cut2bottom.jpg);
+    grid-area: cut2;
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -267,8 +268,7 @@ main .grid-container-oferta {
     main .grid-container-oferta .bottom2 img {
       width: 250px;
       height: 250px;
-      align-self: center;
-      grid-area: cut2; }
+      align-self: center; }
     main .grid-container-oferta .bottom2 h3 {
       font-size: 15px;
       font-family: 'poppins'; }
@@ -277,6 +277,9 @@ main .grid-container-oferta {
       font-family: 'poppins'; }
   main .grid-container-oferta .bottom3 {
     background-image: url(../img/cut3bottom.jpg);
+    grid-area: cut3;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -286,17 +289,14 @@ main .grid-container-oferta {
     text-align: center;
     text-decoration: none;
     color: white;
-    transition-duration: 1s;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px; }
+    transition-duration: 1s; }
     main .grid-container-oferta .bottom3:hover {
       transform: scale(1.1);
       color: white; }
     main .grid-container-oferta .bottom3 img {
       width: 250px;
       height: 250px;
-      align-self: center;
-      grid-area: cut3; }
+      align-self: center; }
     main .grid-container-oferta .bottom3 h3 {
       font-size: 15px;
       font-family: 'poppins'; }
@@ -518,7 +518,7 @@ footer .grid-container-footer {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas: "facebook instagram whatsapp" "copyright iconotop img-ilust";
   background: #2f2f2f;
   background: linear-gradient(0deg, #2f2f2f 0%, #1e1e1e 100%); }
@@ -583,9 +583,9 @@ footer .grid-container-footer {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 70%; }
+    height: 100%; }
     footer .grid-container-footer .icono-index img {
-      width: 80%;
+      width: 35%;
       height: 100%; }
 
 /* ---------------------------------------MEDIA QUERIES------------------------------------ */
@@ -870,7 +870,7 @@ footer .grid-container-footer {
     font-size: 15px; }
   footer .grid-container-footer .img-ilust {
     font-size: 15px; }
-  ain .main-contacto .wrapper .container-formulario form .boton {
+  main .main-contacto .wrapper .container-formulario form .boton {
     width: 50%; }
   main .main-contacto .wrapper .container-formulario form div {
     margin-left: 3vw;
