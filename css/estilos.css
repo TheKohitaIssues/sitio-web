@@ -729,6 +729,8 @@ footer .grid-container-footer {
     height: 10vw; }
   header .header-busqueda .example input[type=text], header .header-busqueda .example button {
     font-size: 12px; }
+  header .header-busqueda .example button {
+    padding-right: 20px; }
   nav ul li {
     font-size: 1.5vw;
     margin: 9px;
