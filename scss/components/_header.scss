@@ -6,9 +6,12 @@ header {
     .header-top {
         display: flex;
         justify-content: center;
+        img {
+            height: 6vw;
+        }
     }
     .cart {
-        font-size: 40px;
+        font-size: 2vw;
         color: nth($colores,1);
         margin-top: 5vh;
         margin-right: 5vw;
@@ -76,11 +79,13 @@ nav {
     ul{
         list-style: none;
         text-align: center;
+        margin: 0;
+        padding: 0;
         li{
             display: inline-block;
-            font-size: 25px;
-            margin: 20px;
-            padding: 10px;
+            font-size: 1.2vw;
+            margin: 1vw;
+            padding: 0.5vw;
             a{
                 text-decoration: none;
                 font-family: 'Flamenco', cursive;
