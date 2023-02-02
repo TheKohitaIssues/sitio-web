@@ -42,6 +42,7 @@ main {
             text-align: center;
             font-size: 30px;
             padding-bottom: 3vh;
+            margin-top: 2vh;
         }
     }
 }
@@ -218,11 +219,7 @@ main {
             padding-top: 20px;
         }
         .wrapper {
-            margin-left: auto;
-            margin-right: auto;
-            padding: 5.5em;
-            display: flex;
-            justify-content: center;
+            @include wrapper;
             .container-formulario {
                 box-shadow: 0 0 50px 0 #535353;
                 font-family: 'Flamenco', cursive;
@@ -319,11 +316,7 @@ main {
             }
         }    
         .faqs-wrapper {
-            display: flex;
-            justify-content: center;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 5.5em;
+            @include wrapper;
             .faqs {
                 box-shadow: 0 0 50px 0 #535353;
                 font-family: 'Poppins';
