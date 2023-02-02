@@ -620,8 +620,10 @@ footer .grid-container-footer {
 @media screen and (max-width: 1450px) {
   header .cart {
     font-size: 2.5vw; }
+  header .header-busqueda .example input[type=text], header .header-busqueda .example button {
+    font-size: 14px; }
   nav ul li {
-    font-size: 2vw; }
+    font-size: 1.3vw; }
   main .wrapper-quienes-somos img {
     width: 800px;
     height: 550px; }
@@ -676,6 +678,8 @@ footer .grid-container-footer {
 @media screen and (max-width: 1200px) {
   header .header-top a img {
     height: 9vw; }
+  header .header-busqueda .example input[type=text], header .header-busqueda .example button {
+    font-size: 13px; }
   main .wrapper-quienes-somos .quienes-somos {
     display: flex;
     flex-direction: column; }
@@ -693,15 +697,17 @@ footer .grid-container-footer {
     padding-left: 6vw;
     padding-right: 6vw; }
   footer .icono-index img {
-    display: none; } }
+    display: none; }
+  footer .grid-container-footer .img-ilust {
+    grid-column: 2/4; } }
 
 @media screen and (max-width: 1090px) {
   header .cart {
     font-size: 3vw; }
   header .header-busqueda .example input[type=text], header .header-busqueda .example button {
-    font-size: 15px; }
+    font-size: 13px; }
   nav ul li {
-    font-size: 2vw;
+    font-size: 1.8vw;
     margin: 10px;
     padding: 5px; }
   main .main-contacto .faqs-wrapper .faqs .faqs-pregunta {
@@ -721,8 +727,10 @@ footer .grid-container-footer {
 @media screen and (max-width: 965px) {
   header .header-top a img {
     height: 10vw; }
+  header .header-busqueda .example input[type=text], header .header-busqueda .example button {
+    font-size: 12px; }
   nav ul li {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     margin: 9px;
     padding: 4px; }
   main .grid-container-destacados .top1 {
@@ -792,9 +800,9 @@ footer .grid-container-footer {
   header .header-top a img {
     height: 11vw; }
   header .header-busqueda .example input[type=text], header .header-busqueda .example button {
-    font-size: 13px; }
+    font-size: 11px; }
   nav ul li {
-    font-size: 2.8vw;
+    font-size: 2vw;
     margin: 4px;
     padding: 2px; }
   main .main-contacto .wrapper .container-formulario form .boton {
@@ -810,67 +818,69 @@ footer .grid-container-footer {
     grid-template-areas: "cut1" "cut2" "cut3";
     row-gap: 1.5vh; }
   main .grid-container-destacados .top1 {
-    width: 300px;
-    height: 400px;
-    border-radius: 20px; }
+    width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    margin-bottom: 2vh; }
   main .grid-container-destacados .top1 img {
-    width: 250px;
-    height: 250px; }
+    width: 230px;
+    height: 230px; }
   main .grid-container-destacados .top1 h3 {
     font-size: 15px; }
   main .grid-container-destacados .top1 h4 {
     font-size: 20px; }
   main .grid-container-destacados .top2 {
-    width: 300px;
-    height: 400px;
+    width: 280px;
+    height: 380px;
     border-radius: 20px; }
   main .grid-container-destacados .top2 img {
-    width: 250px;
-    height: 250px; }
+    width: 230px;
+    height: 230px; }
   main .grid-container-destacados .top2 h3 {
     font-size: 15px; }
   main .grid-container-destacados .top2 h4 {
     font-size: 20px; }
   main .grid-container-destacados .top3 {
-    width: 300px;
-    height: 400px;
+    width: 280px;
+    height: 380px;
     border-radius: 20px; }
   main .grid-container-destacados .top3 img {
-    width: 250px;
-    height: 250px; }
+    width: 230px;
+    height: 230px; }
   main .grid-container-destacados .top3 h3 {
     font-size: 15px; }
   main .grid-container-destacados .top3 h4 {
     font-size: 20px; }
   main .grid-container-oferta .bottom1 {
-    width: 300px;
-    height: 400px;
-    border-radius: 20px; }
+    width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    margin-bottom: 2vh; }
   main .grid-container-oferta .bottom1 img {
-    width: 250px;
-    height: 250px; }
+    width: 230px;
+    height: 230px; }
   main .grid-container-oferta .bottom1 h3 {
     font-size: 15px; }
   main .grid-container-oferta .bottom1 h4 {
     font-size: 20px; }
   main .grid-container-oferta .bottom2 {
-    width: 300px;
-    height: 400px;
+    width: 280px;
+    height: 380px;
     border-radius: 20px; }
   main .grid-container-oferta .bottom2 img {
-    width: 250px;
-    height: 250px; }
+    width: 230px;
+    height: 230px; }
   main .grid-container-oferta .bottom2 h3 {
     font-size: 15px; }
   main .grid-container-oferta .bottom2 h4 {
     font-size: 20px; }
   main .grid-container-oferta .bottom3 {
-    width: 300px;
-    height: 400px;
+    width: 280px;
+    height: 380px;
     border-radius: 20px; }
   main .grid-container-oferta .bottom3 img {
-    width: 250px;
-    height: 250px; }
+    width: 230px;
+    height: 230px; }
   main .grid-container-oferta .bottom3 h3 {
     font-size: 15px; }
   main .grid-container-oferta .bottom3 h4 {
@@ -919,8 +929,10 @@ footer .grid-container-footer {
   header .header-top a img {
     width: 250px;
     height: 100px; }
+  header .header-busqueda .example input[type=text], header .header-busqueda .example button {
+    font-size: 10px; }
   nav ul li {
-    font-size: 3.25vw;
+    font-size: 2.5vw;
     margin: 4px;
     padding: 2px; }
   main .main-contacto .faqs-wrapper .faqs .faqs-pregunta {
@@ -932,7 +944,7 @@ footer .grid-container-footer {
   header .cart {
     font-size: 5vw; }
   nav ul li {
-    font-size: 20px;
+    font-size: 16px;
     margin: 4px;
     padding: 2px; }
   main .main-contacto .wrapper .container-formulario form .boton {
