@@ -544,6 +544,7 @@ main section h2 {
 
 .top1 {
     background-image: url(../img/cut1top.jpg);
+    grid-area: cut1;
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -561,7 +562,6 @@ main section h2 {
     width: 250px;
     height: 250px;
     align-self: center;
-    grid-area: cut1;
 }
 .top1 h3 {
     font-size: 15px;
@@ -578,6 +578,7 @@ main section h2 {
 
 .top2 {
     background-image: url(../img/cut2top.jpg);
+    grid-area: cut2;
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -593,7 +594,6 @@ main section h2 {
     width: 250px;
     height: 250px;
     align-self: center;
-    grid-area: cut2;
 }
 .top2 h3 {
     font-size: 15px;
@@ -610,6 +610,7 @@ main section h2 {
 
 .top3 {
     background-image: url(../img/cut3top.jpg);
+    grid-area: cut3;
     background-size: cover;
     width: 300px;
     height: 400px;
@@ -627,7 +628,6 @@ main section h2 {
     width: 250px;
     height: 250px;
     align-self: center;
-    grid-area: cut3;
 }
 .top3 h3 {
     font-size: 15px;
